@@ -287,3 +287,10 @@ body.drawer-open .drawer-backdrop { opacity: 1; visibility: visible; }
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
   .reveal { opacity: 1; transform: none; }
 }
+
+
+/* Subtle developer credit / business promotion */
+.developer-credit { flex-basis: 100%; margin-top: 4px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 10px; line-height: 1.7; text-align: center; letter-spacing: .02em; }
+.developer-credit strong { color: var(--cream); font-weight: 600; }
+.developer-credit a { color: var(--gold); text-decoration: underline; text-underline-offset: 3px; }
+.developer-credit a:hover { color: var(--gold-2); }
