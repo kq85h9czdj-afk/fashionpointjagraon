@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c0b0a">
+  <meta name="description" content="Fashion Point, Jagraon — premium men's, women's, kids' fashion and footwear. Order or pre-book your new look directly on WhatsApp.">
+  <title>Fashion Point | Premium Fashion Store · Jagraon</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Manrope:wght@300;400;500;600;700&family=Fredoka:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="loader" aria-hidden="true"><span>FP</span></div>
+  <div class="topbar"><div class="marquee"><span>NEW SEASON LOOKS HAVE ARRIVED ✦ MEN · WOMEN · KIDS · FOOTWEAR ✦ ORDER &amp; PRE-BOOK ON WHATSAPP ✦ VISIT US IN JAGRAON ✦&nbsp;</span><span>NEW SEASON LOOKS HAVE ARRIVED ✦ MEN · WOMEN · KIDS · FOOTWEAR ✦ ORDER &amp; PRE-BOOK ON WHATSAPP ✦ VISIT US IN JAGRAON ✦&nbsp;</span></div></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Fashion Point home">
+      <span class="brand-mark">FP</span>
+      <span><strong>FASHION POINT</strong><small>JAGRAON · PUNJAB</small></span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#new">New Looks</a>
+      <a href="#shop" data-filter="men">Men</a>
+      <a href="#shop" data-filter="women">Women</a>
+      <a href="#shop" data-filter="footwear">Footwear</a>
+      <a href="#kids" class="nav-kids">Kids Store</a>
+      <a href="#prebook">Pre-Book</a>
+      <a href="#visit">Visit</a>
+    </nav>
+    <div class="header-actions">
+      <button class="bag-btn" id="bagBtn" aria-label="Open your bag">Bag <span id="bagCount">0</span></button>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO with 3D carousel -->
+    <section class="hero" id="home">
+      <div class="hero-glow"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">THE NEW SEASON EDIT · 2026</p>
+        <h1>Dress the<br><em>moment.</em></h1>
+        <p class="hero-copy">Premium clothing for men, women and kids, plus footwear for every step. Browse the latest looks, then order or pre-book them on WhatsApp.</p>
+        <div class="hero-actions">
+          <a class="button button-gold" href="#shop">Shop the Collection <span>→</span></a>
+          <a class="button button-ghost" href="#prebook">Pre-Book a Look</a>
+        </div>
+        <ul class="hero-stats">
+          <li><strong>4</strong><span>Departments</span></li>
+          <li><strong>1:1</strong><span>WhatsApp service</span></li>
+          <li><strong>∞</strong><span>New looks</span></li>
+        </ul>
+      </div>
+      <div class="stage" id="stage" aria-label="Rotating gallery of new looks">
+        <div class="carousel" id="carousel">
+          <figure style="--i:0"><img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=600&q=75&auto=format&fit=crop" alt="Man in navy suit"><figcaption>Men</figcaption></figure>
+          <figure style="--i:1"><img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=600&q=75&auto=format&fit=crop" alt="Woman in burgundy coat with shopping bags"><figcaption>Women</figcaption></figure>
+          <figure style="--i:2"><img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=75&auto=format&fit=crop" alt="Red sneaker"><figcaption>Footwear</figcaption></figure>
+          <figure style="--i:3"><img src="https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&q=75&auto=format&fit=crop" alt="Boy in a smart outfit with bow tie"><figcaption>Kids</figcaption></figure>
+          <figure style="--i:4"><img src="https://images.unsplash.com/photo-1520975954732-35dd22299614?w=600&q=75&auto=format&fit=crop" alt="Man in leather jacket"><figcaption>New Looks</figcaption></figure>
+          <figure style="--i:5"><img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&q=75&auto=format&fit=crop" alt="Woman in yellow co-ord set"><figcaption>Women</figcaption></figure>
+          <figure style="--i:6"><img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=600&q=75&auto=format&fit=crop" alt="Printed heels"><figcaption>Footwear</figcaption></figure>
+          <figure style="--i:7"><img src="https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&q=75&auto=format&fit=crop" alt="Girl in polka dot dress"><figcaption>Kids</figcaption></figure>
+        </div>
+        <div class="stage-floor"></div>
+        <p class="stage-hint">Drag to spin ↔</p>
+      </div>
+    </section>
+
+    <!-- Departments -->
+    <section class="section departments" id="departments">
+      <div class="section-heading reveal">
+        <div><p class="eyebrow">SHOP BY DEPARTMENT</p><h2>Something for <em>everyone.</em></h2></div>
+        <p>Four departments under one roof. Pick one to see the latest pieces.</p>
+      </div>
+      <div class="dept-grid">
+        <a class="dept-card tilt reveal" href="#shop" data-filter="men">
+          <img src="https://images.unsplash.com/photo-1617137968427-85924c800a22?w=800&q=75&auto=format&fit=crop" alt="Men's collection" loading="lazy">
+          <div class="dept-info"><span>01</span><h3>Men</h3><p>Suits · Shirts · Jackets · Denim</p></div>
+        </a>
+        <a class="dept-card tilt reveal" href="#shop" data-filter="women">
+          <img src="https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=800&q=75&auto=format&fit=crop" alt="Women's collection" loading="lazy">
+          <div class="dept-info"><span>02</span><h3>Women</h3><p>Dresses · Co-ords · Coats · Ethnic</p></div>
+        </a>
+        <a class="dept-card tilt reveal" href="#shop" data-filter="footwear">
+          <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800&q=75&auto=format&fit=crop" alt="Footwear collection" loading="lazy">
+          <div class="dept-info"><span>03</span><h3>Footwear</h3><p>Sneakers · Formal · Heels · Sandals</p></div>
+        </a>
+        <a class="dept-card tilt reveal" href="#kids">
+          <img src="https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=800&q=75&auto=format&fit=crop" alt="Kids store" loading="lazy">
+          <div class="dept-info"><span>04</span><h3>Kids Store</h3><p>Boys · Girls · Babies · Party wear</p></div>
+        </a>
+      </div>
+    </section>
+
+    <!-- New looks lookbook -->
+    <section class="section new-looks" id="new">
+      <div class="section-heading reveal">
+        <div><p class="eyebrow">JUST LANDED</p><h2>The new <em>looks.</em></h2></div>
+        <p>Our latest styling picks. Like a look? Order it or pre-book it before it sells out.</p>
+      </div>
+      <div class="lookbook">
+        <article class="look look-tall tilt reveal">
+          <img src="https://images.unsplash.com/photo-1509631179647-0177331693ae?w=900&q=75&auto=format&fit=crop" alt="Statement striped trousers look" loading="lazy">
+          <div class="look-meta"><p>LOOK 01 · WOMEN</p><h3>Bold Stripes</h3><button class="button button-gold small" data-order="Look 01 – Bold Stripes (Women)">Order this look</button></div>
+        </article>
+        <article class="look tilt reveal">
+          <img src="https://images.unsplash.com/photo-1520975954732-35dd22299614?w=900&q=75&auto=format&fit=crop" alt="Leather jacket street look" loading="lazy">
+          <div class="look-meta"><p>LOOK 02 · MEN</p><h3>Street Leather</h3><button class="button button-gold small" data-order="Look 02 – Street Leather (Men)">Order this look</button></div>
+        </article>
+        <article class="look tilt reveal">
+          <img src="https://images.unsplash.com/photo-1514989940723-e8e51635b782?w=900&q=75&auto=format&fit=crop" alt="Colourful sneakers look" loading="lazy">
+          <div class="look-meta"><p>LOOK 03 · FOOTWEAR</p><h3>Colour Pop Kicks</h3><button class="button button-gold small" data-order="Look 03 – Colour Pop Kicks (Footwear)">Order this look</button></div>
+        </article>
+        <article class="look look-wide tilt reveal">
+          <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=1200&q=75&auto=format&fit=crop" alt="Rack of new season clothes" loading="lazy">
+          <div class="look-meta"><p>LOOK 04 · NEW ARRIVALS</p><h3>Fresh Off The Rack</h3><button class="button button-gold small" data-prebook="New arrivals">Pre-book new arrivals</button></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Shop -->
+    <section class="section shop" id="shop">
+      <div class="section-heading reveal">
+        <div><p class="eyebrow">THE COLLECTION</p><h2>Shop the <em>edit.</em></h2></div>
+        <p>Pick your size, then add to your bag or order straight away. We'll confirm price and availability on WhatsApp.</p>
+      </div>
+      <div class="filters reveal" role="tablist" aria-label="Filter products">
+        <button class="filter active" data-filter="all" role="tab" aria-selected="true">All</button>
+        <button class="filter" data-filter="men" role="tab" aria-selected="false">Men</button>
+        <button class="filter" data-filter="women" role="tab" aria-selected="false">Women</button>
+        <button class="filter" data-filter="footwear" role="tab" aria-selected="false">Footwear</button>
+        <button class="filter" data-filter="kids" role="tab" aria-selected="false">Kids</button>
+      </div>
+      <div class="product-grid" id="productGrid"></div>
+    </section>
+
+    <!-- Kids Store -->
+    <section class="kids" id="kids">
+      <div class="kids-bubbles" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      <div class="kids-inner">
+        <div class="kids-copy reveal">
+          <p class="kids-tag">✿ FASHION POINT KIDS</p>
+          <h2>The Little<br>Ones' Store</h2>
+          <p>Comfy everyday wear, party outfits and tiny shoes for boys, girls and babies. Soft fabrics, bright colours and sizes for every age.</p>
+          <div class="kids-ages"><span>0–2 yrs</span><span>3–5 yrs</span><span>6–9 yrs</span><span>10–14 yrs</span></div>
+          <div class="hero-actions">
+            <a class="button kids-btn" href="#shop" data-filter="kids">Shop Kids →</a>
+            <button class="button kids-btn-outline" data-prebook="Kids Store">Pre-book for my child</button>
+          </div>
+        </div>
+        <div class="kids-cubes reveal">
+          <div class="cube-card tilt"><img src="https://images.unsplash.com/photo-1471286174890-9c112ffca5b4?w=600&q=75&auto=format&fit=crop" alt="Kid in red tee" loading="lazy"><span>Boys</span></div>
+          <div class="cube-card tilt"><img src="https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&q=75&auto=format&fit=crop" alt="Girl in polka dot dress" loading="lazy"><span>Girls</span></div>
+          <div class="cube-card tilt"><img src="https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&q=75&auto=format&fit=crop" alt="Baby clothes and toys" loading="lazy"><span>Baby</span></div>
+          <div class="cube-card tilt"><img src="https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&q=75&auto=format&fit=crop" alt="Boy in party wear" loading="lazy"><span>Party Wear</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How to order -->
+    <section class="section steps">
+      <div class="section-heading reveal">
+        <div><p class="eyebrow">ORDERING IS EASY</p><h2>Shop online in <em>three steps.</em></h2></div>
+      </div>
+      <div class="steps-grid">
+        <div class="step tilt reveal"><span>01</span><h3>Pick your style</h3><p>Browse the collection and choose your size.</p></div>
+        <div class="step tilt reveal"><span>02</span><h3>Send on WhatsApp</h3><p>Your bag goes to us as a ready-made WhatsApp message.</p></div>
+        <div class="step tilt reveal"><span>03</span><h3>Collect or receive</h3><p>We confirm price and availability, then arrange pickup or delivery.</p></div>
+      </div>
+    </section>
+
+    <!-- Pre-booking -->
+    <section class="prebook" id="prebook">
+      <div class="prebook-copy reveal">
+        <p class="eyebrow">RESERVE BEFORE IT'S GONE</p>
+        <h2>Pre-book your<br><em>next look.</em></h2>
+        <p>Want an outfit for a wedding, festival or party? Tell us what you're after and we'll keep it aside for you, or let you know as soon as it's in.</p>
+        <ul class="perks"><li>✦ Your size kept aside</li><li>✦ First look at new stock</li><li>✦ Help with sizing and styling</li></ul>
+      </div>
+      <form class="prebook-form reveal" id="prebookForm">
+        <div class="field-row">
+          <label>Your name<input name="name" required autocomplete="name" placeholder="Full name"></label>
+          <label>Phone<input name="phone" type="tel" required autocomplete="tel" placeholder="+91"></label>
+        </div>
+        <div class="field-row">
+          <label>Department
+            <select name="dept" id="prebookDept">
+              <option>Men</option><option>Women</option><option>Footwear</option><option>Kids Store</option><option>New arrivals</option>
+            </select>
+          </label>
+          <label>Size<input name="size" placeholder="e.g. M, 32, UK 8, 5–6 yrs"></label>
+        </div>
+        <div class="field-row">
+          <label>Occasion
+            <select name="occasion"><option>Everyday</option><option>Wedding</option><option>Festival</option><option>Party</option><option>Office / Formal</option><option>School / Kids event</option></select>
+          </label>
+          <label>Preferred date<input name="date" type="date"></label>
+        </div>
+        <label>What are you looking for?<textarea name="details" rows="3" placeholder="Colour, style, budget, or the product name you saw here…"></textarea></label>
+        <button class="button button-gold full" type="submit">Pre-Book on WhatsApp <span>→</span></button>
+        <small>Sending opens WhatsApp with your details filled in, ready to send to Fashion Point.</small>
+      </form>
+    </section>
+
+    <!-- Visit -->
+    <section class="visit-section" id="visit">
+      <div class="visit-copy reveal">
+        <p class="eyebrow">COME SAY HELLO</p>
+        <h2>Visit our <em>store.</em></h2>
+        <p class="address">Street No. 1, near Malak Road Chowk,<br>Kothe Sher Jang, Jagraon,<br>Punjab 142026, India</p>
+        <p class="phone"><a href="tel:+918847080855">+91 88470 80855</a></p>
+        <div class="hero-actions">
+          <a class="button button-gold" href="https://www.google.com/maps/search/?api=1&query=Fashion%20Point%2C%20Street%20No.%201%2C%20near%20Malak%20Road%20Chowk%2C%20Jagraon%2C%20Punjab%20142026" target="_blank" rel="noopener">Get Directions ↗</a>
+          <a class="button button-ghost" href="https://wa.me/918847080855" target="_blank" rel="noopener">WhatsApp Us</a>
+        </div>
+        <small class="hours-note">Please message or call to confirm today's opening hours.</small>
+      </div>
+      <div class="store-card tilt reveal">
+        <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=900&q=75&auto=format&fit=crop" alt="Inside a fashion store" loading="lazy">
+        <div><p>FASHION POINT</p><strong>JAGRAON, PUNJAB</strong></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand" href="#home"><span class="brand-mark">FP</span><span><strong>FASHION POINT</strong><small>JAGRAON · PUNJAB</small></span></a>
+    <nav><a href="#shop" data-filter="men">Men</a><a href="#shop" data-filter="women">Women</a><a href="#shop" data-filter="footwear">Footwear</a><a href="#kids">Kids</a><a href="#prebook">Pre-Book</a></nav>
+    <small>© <span id="year"></span> Fashion Point, Jagraon. All rights reserved.</small>
+  </footer>
+
+  <!-- Bag drawer -->
+  <div class="drawer-backdrop" id="drawerBackdrop"></div>
+  <aside class="drawer" id="drawer" aria-label="Your bag" aria-hidden="true">
+    <div class="drawer-head"><h3>Your Bag</h3><button class="drawer-close" id="drawerClose" aria-label="Close bag">✕</button></div>
+    <div class="drawer-items" id="drawerItems"></div>
+    <div class="drawer-foot">
+      <label>Name (optional)<input id="orderName" placeholder="Your name"></label>
+      <label>Delivery or pickup
+        <select id="orderMode"><option>Store pickup</option><option>Home delivery</option></select>
+      </label>
+      <button class="button button-gold full" id="checkoutBtn">Send Order on WhatsApp <span>→</span></button>
+      <small>We'll reply on WhatsApp to confirm price, stock and delivery.</small>
+    </div>
+  </aside>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <a class="floating-whatsapp" href="https://wa.me/918847080855?text=Hello%20Fashion%20Point!" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 32 32" width="26" height="26" aria-hidden="true"><path fill="currentColor" d="M16 3C9 3 3.3 8.6 3.3 15.6c0 2.4.7 4.7 1.9 6.7L3 29l6.9-2.2c1.9 1 4 1.6 6.1 1.6 7 0 12.7-5.7 12.7-12.7S23 3 16 3zm0 23.1c-1.9 0-3.8-.5-5.4-1.5l-.4-.2-4.1 1.3 1.3-4-.3-.4c-1.1-1.7-1.7-3.7-1.7-5.7C5.4 9.8 10.2 5.1 16 5.1s10.6 4.7 10.6 10.5S21.8 26.1 16 26.1zm5.8-7.9c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.3-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.3-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.3.3-.6.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 2.9s1.2 3.3 1.4 3.6c.2.2 2.4 3.6 5.7 5 .8.3 1.4.5 1.9.7.8.3 1.5.2 2.1.1.6-.1 1.9-.8 2.2-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.3-.6-.4z"/></svg>
+    <span>Order on WhatsApp</span>
+  </a>
+  <script src="script.js"></script>
+</body>
+</html>
